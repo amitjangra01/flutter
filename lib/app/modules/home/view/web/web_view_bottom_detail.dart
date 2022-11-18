@@ -70,7 +70,7 @@ class WebBottomDetails extends ConsumerWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 'TRAVALA.COM',
@@ -100,7 +100,7 @@ class WebBottomDetails extends ConsumerWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 'SUPPORT',
@@ -130,7 +130,7 @@ class WebBottomDetails extends ConsumerWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 'USEFUL LINKS',
@@ -158,7 +158,7 @@ class WebBottomDetails extends ConsumerWidget {
             ],
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 'RESOURCES',
@@ -184,6 +184,7 @@ class WebBottomDetails extends ConsumerWidget {
             ],
           ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
                 'COMMUNITY',
